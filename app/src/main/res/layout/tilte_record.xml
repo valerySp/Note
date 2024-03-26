@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardBackgroundColor="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_toStartOf="@+id/moreBtn"
+            android:layout_toLeftOf="@+id/moreBtn"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameTitle"
+                android:text="Заголовок"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="20dp"
+            android:id="@+id/alarm"
+            android:layout_height="20dp"
+            android:visibility="gone"
+            android:layout_toStartOf="@+id/moreBtn"
+            android:background="@drawable/update_btn">
+
+        </ImageView>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/moreBtn"
+            android:src="@drawable/ic_morebtn_black"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

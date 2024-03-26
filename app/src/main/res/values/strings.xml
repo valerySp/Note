@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Заметки УГЭ</string>
+    <string name="developer">development by Sparnyuk&amp;Co</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Заметки УГЭ</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_etk">ЭТК</string>
+    <string name="menu_water">Сантех. участок</string>
+    <string name="menu_gas">Газовый участок</string>
+    <string name="menu_climate">Микроклимат</string>
+    <string name="menu_dev">Подрядчики</string>
+    <string name="menu_str">Производства</string>
+    <string name="menu_other">Прочее</string>
+    <string name="menu_otd">Отдел</string>
+</resources>

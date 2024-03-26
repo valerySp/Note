@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Notes"
+        tools:targetApi="31">
+        <activity
+            android:name=".FullScreen"
+            android:exported="false" />
+
+        <service
+            android:name=".MyServiceNoti"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Notification"
+            android:exported="true" />
+
+        <receiver
+            android:name=".AlertReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".TITLE.WATER.ShowTitleWater"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.WATER.AddTitleWater"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.WATER.ListTitleWater"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.WATER.ImageTitleWater"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.GAS.ShowTitleGas"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.GAS.AddTitleGas"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.GAS.ListTitleGas"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.GAS.ImageTitleGas"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.ETK.ListTitleETK"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.ETK.ShowTitleETK"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.ETK.ImageTitleETK"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.ETK.AddTitleETK"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Climate.AddTitleClimate"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Climate.ImageTitleClimate"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Climate.ListTitleClimate"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Climate.ShowTitleClimate"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Builder.ListTitleBuilder"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Builder.ShowTitleBuilder"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Builder.AddTitleBuilder"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Builder.ImageTitleBuilder"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Struct.ImageTitleStr"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Struct.ListTitleStr"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Struct.ShowTitleStr"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Struct.AddTitleStr"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Otdel.ListTitleOtdel"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Otdel.ShowTitleOtdel"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Otdel.ImageTitleOtdel"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Otdel.AddTitleOtdel"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Other.ListTitleOther"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Other.ShowTitleOther"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Other.AddTitleOther"
+            android:exported="false" />
+        <activity
+            android:name=".TITLE.Other.ImageTitleOther"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".DEPART.Water.AddDepartWater"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Water.UpdateWater"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Water.ShowDepartWater"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.GAS.AddDepartGas"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.GAS.UpdateGas"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.GAS.ShowDepartGas"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.ETK.ShowDepartETK"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.ETK.UpdateETK"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.ETK.AddDepartETK"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Climate.AddDepartClimate"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Climate.ShowDepartClimate"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Climate.UpdateClimate"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Builder.ShowDepartBuilder"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Builder.UpdateBuilder"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Builder.AddDepartBuilder"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Struct.ShowDepartStr"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Struct.UpdateStr"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Struct.AddDepartStr"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Otdel.ShowDepartOtdel"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Otdel.UpdateOtdel"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Otdel.AddDepartOtdel"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Other.ShowDepartOther"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Other.AddDepartOther"
+            android:exported="false" />
+        <activity
+            android:name=".DEPART.Other.UpdateOther"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Notes.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

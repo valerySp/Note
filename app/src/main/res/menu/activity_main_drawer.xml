@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_otd"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_otd" />
+        <item
+            android:id="@+id/nav_etk"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_etk" />
+        <item
+            android:id="@+id/nav_water"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_water" />
+        <item
+            android:id="@+id/nav_gas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_gas" />
+        <item
+            android:id="@+id/nav_climate"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_climate" />
+        <item
+            android:id="@+id/nav_dev"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_dev" />
+        <item
+            android:id="@+id/nav_str"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_str" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_other" />
+    </group>
+</menu>
